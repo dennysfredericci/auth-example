@@ -1,0 +1,20 @@
+logging:
+  level:
+    root: WARN
+    org.springframework.web: INFO
+    org.springframework.security: INFO
+    org.springframework.security.oauth2: DEBUG
+
+
+
+
+spring:
+  thymeleaf:
+    cache: false
+  security:
+    oauth2:
+      client:
+        registration:
+          facebook:
+            client-id: 406291273251002
+            client-secret: 4968c793e3ae6ec851656dcd25f5e48f
